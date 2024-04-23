@@ -1,0 +1,35 @@
+<?
+$_LANG_TEXT3 = array (
+	"checklist"=>array("JP"=>"","CN"=>"", "KR"=>"체크리스트", "EN" => "Checklist" ),
+	"idcmanagerchecklist"=>array("JP"=>"","CN"=>"", "KR"=>"지원체크리스트", "EN" => "" ),
+    "taskdiv"=>array("JP"=>"","CN"=>"", "KR"=>"업무구분", "EN" => "" ),
+	"confirmok"=>array("JP"=>"0","CN"=>"", "KR"=>"확인완료", "EN" => "" ),
+	"confirmtext"=>array("JP"=>"0","CN"=>"", "KR"=>"확인", "EN" => "" ),
+	"visitortext"=>array("CN"=>"", "KR"=>"출입자 정보", "EN" => "Visitor Info" ),
+	"supportertext"=>array("CN"=>"", "KR"=>"작업 지원자", "EN" => "Supporter Info" ),
+	"menupresettitle"=>array("CN"=>"", "KR"=>"권한그룹 명", "EN" => "" ),
+	"applytarget"=>array("CN"=>"", "KR"=>"적용대상", "EN" => "" ),
+	"menuauthpresetinfo"=>array("CN"=>"", "KR"=>"권한그룹 정보", "EN" => "" ),
+	"menupresetinfo"=>array("CN"=>"", "KR"=>"권한그룹 정보", "EN" => "" ),
+	"menupresetconfig"=>array("CN"=>"", "KR"=>"권한 상세 설정", "EN" => "" ),
+	"menuauthapplylevel"=>array("CN"=>"", "KR"=>"적용 등급", "EN" => "" ),
+	"pageauthbyadminlevel"=>array("CN"=>"", "KR"=>"사용자 등급", "EN" => "" ),
+	"pageauthbypreset"=>array("CN"=>"", "KR"=>"권한그룹 선택", "EN" => "" ),
+	"pageauthbycustomize"=>array("CN"=>"", "KR"=>"직접지정", "EN" => "" ),
+	"pageauthall"=>array("CN"=>"", "KR"=>"페이지 전체 허용", "EN" => "" ),
+	"pageauthdetail"=>array("CN"=>"", "KR"=>"권한 상세보기", "EN" => "" ),
+	"modifyidcvisitreport"=>array("JP"=>"","CN"=>"", "KR"=>"유지보수결과서수정", "EN" => "" ),
+	"pageauthpreview"=>array("JP"=>"","CN"=>"", "KR"=>"페이지 접근권한 보기", "EN" => "" ),
+	"selectadminlevel"=>array("JP"=>"","CN"=>"", "KR"=>"사용자등급을 선택하세요.", "EN" => "" ),
+	"authscancenter"=>array("JP"=>"0","CN"=>"", "KR"=>"관리 검사장 설정", "EN" => "" ),
+	"authusedcount"=>array("JP"=>"0","CN"=>"", "KR"=>"사용자수", "EN" => "" ),
+	"finddepartment"=>array("JP"=>"0","CN"=>"", "KR"=>"부서 찾기", "EN" => "" ),
+	"departmentstep"=>array("JP"=>"0","CN"=>"", "KR"=>"부서 소속", "EN" => "" ),
+	"departmentstepreset"=>array("JP"=>"0","CN"=>"", "KR"=>"부서 찾기 초기화", "EN" => "" ),
+	"finddepartmentemp"=>array("JP"=>"0","CN"=>"", "KR"=>"부서별 사용자 검색", "EN" => "" ),
+	"opendepttree"=>array("JP"=>"0","CN"=>"", "KR"=>"부서 모두 펼치기", "EN" => "" ),
+	"closedepttree"=>array("JP"=>"0","CN"=>"", "KR"=>"부서 모두 닫기", "EN" => "" ),
+);
+
+$_LANG_TEXT = array_merge($_LANG_TEXT, $_LANG_TEXT3);
+?>

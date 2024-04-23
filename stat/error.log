@@ -1,0 +1,13 @@
+search_sql: search_sql: WITH VisitList AS
+(&nbsp;select&nbsp;top 20
+train_seq,train_name,project_name,user_name,user_name_en,user_company,train_date,manager_name,
+manager_name_en,manager_company,manager_dept,memo,create_date,manager_type,manager_belong,
+user_agree_yn
+,ROW_NUMBER() OVER( ORDER BY train_seq DESC ) as rnum
+from tb_train_list
+WHERE 1= 1
+
+)&nbsp;select&nbsp;a.*
+FROM VisitList a
+WHERE rnum &gt; 0;
+search_sql: search_sql: yesysearch_sql: yesy

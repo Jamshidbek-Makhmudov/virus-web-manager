@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+@font-face { 
+		font-family:'MalgunGothic';
+		font-style: normal;
+		src:url(./MalgunGothic.eot);
+		src:url(./MalgunGothic.eot?#iefix) format('embedded-opentype'), 
+		url(./MalgunGothic.woff) format('woff'),
+		url(./MalgunGothic.ttf) format('truetype');
+		src:local(※), url(./MalgunGothic.woff) format('woff'); 
+}
+
+/* 초기화 */
+html {overflow-y:scroll; overflow-x:hidden}
+body {margin:0;padding:0;font-size:13px;font-family: "MalgunGothic", sans-serif; background:#f3f5f7; min-width:1280px; }
+html, h1, h2, h3, h4, h5, h6, form, fieldset, img {margin:0;padding:0;border:0}
+h1, h2, h3, h4, h5, h6 {font-size:1em;font-family: "MalgunGothic", sans-serif;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}
+
+ul {margin:0;padding:0;list-style:none}
+legend {position:absolute;margin:0;padding:0;font-size:0;line-height:0;text-indent:-9999em;overflow:hidden}
+img {vertical-align:middle}
+button, label {margin:0;padding:0;font-family: "MalgunGothic", sans-serif;border:0;vertical-align:middle; display:inline-block;}
+input{margin:1px 0px 1px 0px !important;padding:0;font-family: "MalgunGothic", sans-serif;border:0;vertical-align:middle; display:inline-block;}
+input:focus { outline: none; }
+select:focus { outline: none; }
+button {cursor:pointer}
+textarea {resize:none; border:1px solid #d1d1e3; padding:10px; margin:5px 0; }
+textarea, select {font-family: "MalgunGothic", sans-serif;}
+select {margin:0;padding:4px;border:1px solid #d1d1e3;color:#737296;vertical-align:top;display:inline-block;}
+p {margin:0;padding:0;word-break:break-all}
+hr {display:none}
+pre {overflow-x:scroll;}
+td { word-break:break-all;color:#737296}
+table { width:100%; padding:0; border-spacing:0px; border:0; border-collapse:collapse; }
+a:link, a:visited {color:#666;text-decoration:none}
+a:hover, a:focus, a:active {color:#000;text-decoration:none}
+
+input:-ms-input-placeholder { color: #e0e0e0; }
+input::-webkit-input-placeholder { color: #e0e0e0; } 
+input::-moz-placeholder { color: #e0e0e0; }
+input::-moz-placeholder { color: #e0e0e0; }
+
+

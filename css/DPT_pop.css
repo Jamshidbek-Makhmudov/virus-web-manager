@@ -1,0 +1,41 @@
+IMG,fieldset {border:0px;}
+ul,ol{list-style:none}
+body,input,textarea,select,button,table{font-family:'돋움',Dotum,AppleGothic,sans-serif;}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0;}
+input {vertical-align:middle;}
+BODY {
+	margin:0 auto;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	
+	}
+
+.ser_bottom_3_bg{ text-align:center; margin:0 auto; border-left:1px solid #cdcdcd; border-right:1px solid #cdcdcd; background:url(../images/ser_bottom_bg_2.gif) repeat-x; height:48px; }
+.ser_bottom_3_bg_paging{  text-align:center; margin:0 auto; width:800px; height:19px; padding-top:18px; font-size:11px}
+.ser_bottom_3_bg_paging li{display:inline; position:relative; padding:5px; margin:0 2px;  height:19px; color:#636363; border:1px solid #c3c3c3; background-color:#f8f8f8; }
+
+.text-right{ text-align:right; }
+.text-center{ text-align:center; }
+
+
+/* pop */
+.pop_div_1{ width:900px; }
+.pop_div_2{ width:526px; }
+.pop_div_3{ width:719px; }
+
+.pop_font_bg_1{ color:#ffffff; padding:40px; margin-top:20px;margin:0 auto; text-align:center; width:450px; background-color:#51a9c4; border:1px solid #469ab4  }
+.pop_font_bg_1 dt{  padding-bottom:20px; text-align:left;}
+.pop_font_bg_1 dd{ line-height:150%;text-align:left;}
+.pop_pd_1{ padding:10px 0 25px 0; }
+
+.pop_table_1{padding-top:1px; border-left:1px solid #cdcdcd; border-right:1px solid #cdcdcd; }
+.pop_table_1 caption {display:none; }
+.pop_table_1 th{ height:27px; text-align:center; color:#636363; font-weight: normal; background-color:#f7f7f7;  border-bottom:1px solid #dfdfdf; }
+.pop_table_1 td{color:#636363; width:; padding:6px; height:22px; background-color:#f7f7f7; border-bottom:1px solid #dfdfdf; }
+.pop_table_1 th.bg{padding:6px; height:22px; background-color:#f2f2f2;}
+.pop_table_1 td.bg{padding:6px; height:22px; background-color:#f2f2f2;}
+
+.text_input_3{ width:400px; height:200px; border:1px solid #cdcdcd; }
+
+.pop_table_2{}
+.pop_table_2 td{ width:119px; height:124px; border-right:1px solid #cdcdcd; border-bottom:1px solid #cdcdcd; }

@@ -1,0 +1,89 @@
+<?
+/*
+* 메뉴 리스트
+* $_CODE_PAGE_LINK - /lib/code_wvcs.inc 참조
+*/
+$_PAGE = array (
+		"MAIN"=>array(
+				"MENU_CODE"=>"",
+				"MENU_NAME"=> "MAIN",
+				"MENU_LINK"=>$_CODE_PAGE_LINK["MAIN"],
+				"PAGE"=>array(
+					"main"=>array("HOME","Dashboard","$gate_name"),
+					"my_info"=>array("$gate_name",$_LANG_TEXT['m_user'][$lang_code],$_LANG_TEXT['m_my_info'][$lang_code]))
+			),
+		"USER"=>array(
+				"MENU_CODE"=>"U1000",
+				"MENU_NAME"=>$_LANG_TEXT['m_visitor'][$lang_code],
+				"MENU_LINK"=>$_CODE_PAGE_LINK["U1000"],
+				"PAGE"=>array(
+					"user_list"=>array("$gate_name",$_LANG_TEXT['m_visitor'][$lang_code],$_LANG_TEXT['m_visitor_info'][$lang_code]),
+					"access_control"=>array("$gate_name",$_LANG_TEXT['m_visitor'][$lang_code],$_LANG_TEXT['access_control_theme'][$lang_code]),
+					"access_control_idc"=>array("$gate_name",$_LANG_TEXT['m_visitor'][$lang_code],"IDC ".$_LANG_TEXT['access_control_theme'][$lang_code]),
+					"rental_deatils"=>array("$gate_name",$_LANG_TEXT['m_visitor'][$lang_code],$_LANG_TEXT['rental_deatils'][$lang_code]),
+					"parking_ticket_payment"=>array("$gate_name",$_LANG_TEXT['m_visitor'][$lang_code],$_LANG_TEXT['parking_ticket_payment_details'][$lang_code]),
+					"external_training"=>array("$gate_name",$_LANG_TEXT['m_visitor'][$lang_code],$_LANG_TEXT['External_training'][$lang_code]),
+					"user_info"=>array("$gate_name",$_LANG_TEXT['m_visitor'][$lang_code],$_LANG_TEXT['m_visitor_info'][$lang_code]),
+					"com_info"=>array("$gate_name",$_LANG_TEXT['m_visitor'][$lang_code],$_LANG_TEXT['m_com_info'][$lang_code]))
+			),
+		"RESULT"=>array(
+				"MENU_CODE"=>"R1000",
+				"MENU_LINK"=>$_CODE_PAGE_LINK["R1000"],
+				"MENU_NAME"=>$_LANG_TEXT['m_result'][$lang_code],
+				"PAGE"=>array(
+					"result_list"=>array("$gate_name",$_LANG_TEXT['m_result'][$lang_code],$_LANG_TEXT['m_result'][$lang_code]),
+					"result_list_details"=>array("$gate_name",$_LANG_TEXT['m_result'][$lang_code],$_LANG_TEXT['result_list_details'][$lang_code]),
+					"file_in_apply_list"=>array("$gate_name",$_LANG_TEXT['m_result'][$lang_code],$_LANG_TEXT['file_in_apply_list'][$lang_code]),
+					"checkin_scan_log"=>array("$gate_name",$_LANG_TEXT['m_result'][$lang_code],$_LANG_TEXT['m_manage_checkinscanlog'][$lang_code]))
+			),
+		"STATISTICS"=>array(
+				"MENU_CODE"=>"S1000",
+				"MENU_NAME"=>$_LANG_TEXT['m_statistics'][$lang_code],
+				"MENU_LINK"=>$_CODE_PAGE_LINK["S1000"],
+				"PAGE"=>array(
+				"vcs_stat"=>array("$gate_name",$_LANG_TEXT['m_statistics'][$lang_code],$_LANG_TEXT['m_statistics_result'][$lang_code]),
+				"vcs_company_stat"=>array("$gate_name",$_LANG_TEXT['m_statistics'][$lang_code],$_LANG_TEXT['m_statistics_result_company'][$lang_code]),
+				"user_pc_stat"=>array("$gate_name",$_LANG_TEXT['m_statistics'][$lang_code],$_LANG_TEXT['m_statistics_pc'][$lang_code]),
+				"user_agree_list"=>array("$gate_name",$_LANG_TEXT['m_statistics'][$lang_code],$_LANG_TEXT['user_agree_list'][$lang_code]),
+				"idc_checkinout_list"=>array("$gate_name",$_LANG_TEXT['m_statistics'][$lang_code],$_LANG_TEXT['idccheckinoutdetails'][$lang_code]),
+				"file_inspection_details"=>array("$gate_name",$_LANG_TEXT['m_statistics'][$lang_code],$_LANG_TEXT['file_inspection_details'][$lang_code]),
+				"login_log"=>array("$gate_name",$_LANG_TEXT['m_statistics'][$lang_code],$_LANG_TEXT['m_manage_adminloginlog'][$lang_code]),
+				"work_log"=>array("$gate_name",$_LANG_TEXT['m_statistics'][$lang_code],$_LANG_TEXT['work_log'][$lang_code]),
+				"visit_stat"=>array("$gate_name",$_LANG_TEXT['m_statistics'][$lang_code],$_LANG_TEXT['inoutstatus'][$lang_code]),
+				"rental_stat"=>array("$gate_name",$_LANG_TEXT['m_statistics'][$lang_code],$_LANG_TEXT['item_rental_status'][$lang_code]),
+				"rental_info_change_history"=>array("$gate_name",$_LANG_TEXT['m_statistics'][$lang_code],$_LANG_TEXT['rental_info_change_history'][$lang_code]),
+				"app_update_log"=>array("$gate_name",$_LANG_TEXT['m_statistics'][$lang_code],$_LANG_TEXT['app_update_log_text'][$lang_code]),
+
+				"report"=>array("$gate_name",$_LANG_TEXT['m_statistics'][$lang_code],$_LANG_TEXT['m_report'][$lang_code])),
+	
+				
+			),
+		"MANAGE"=>array(
+				"MENU_CODE"=>"M1000",
+				"MENU_NAME"=>$_LANG_TEXT['m_manage'][$lang_code],
+				"MENU_LINK"=>$_CODE_PAGE_LINK["M1000"],
+				"PAGE"=>array(
+					"tree_list"=>array("$gate_name",$_LANG_TEXT['m_manage'][$lang_code],$_LANG_TEXT['m_manage_organization'][$lang_code]),
+					"emp_list"=>array("$gate_name",$_LANG_TEXT['m_manage'][$lang_code],$_LANG_TEXT['staffinfo'][$lang_code]),
+					"dept_list"=>array("$gate_name",$_LANG_TEXT['m_manage'][$lang_code],$_LANG_TEXT['m_manage_department'][$lang_code]),
+					"scan_center_list"=>array("$gate_name",$_LANG_TEXT['m_manage'][$lang_code],$_LANG_TEXT['m_manage_scan_center'][$lang_code]),
+					"access_ip_config"=>array("$gate_name",$_LANG_TEXT['m_manage'][$lang_code],$_LANG_TEXT['m_manage_accessip'][$lang_code]),
+					"file_signature"=>array("$gate_name",$_LANG_TEXT['m_manage'][$lang_code],$_LANG_TEXT['filesignature'][$lang_code]),
+					"admin_conf"=>array("$gate_name",$_LANG_TEXT['m_manage'][$lang_code],$_LANG_TEXT['configtext'][$lang_code]),
+					"signature_mapping"=>array("$gate_name",$_LANG_TEXT['m_manage'][$lang_code],$_LANG_TEXT['signaturemapping'][$lang_code]),
+					"group_list"=>array("$gate_name",$_LANG_TEXT['m_manage'][$lang_code],$_LANG_TEXT['m_manage_group'][$lang_code]),
+					"jobpos_list"=>array("$gate_name",$_LANG_TEXT['m_manage'][$lang_code],$_LANG_TEXT['m_manage_position'][$lang_code]),
+					"policy"=>array("$gate_name",$_LANG_TEXT['m_manage'][$lang_code],$_LANG_TEXT['m_manage_policy'][$lang_code]),
+					"m_user_list"=>array("$gate_name",$_LANG_TEXT['m_manage'][$lang_code],$_LANG_TEXT['m_manage_employee'][$lang_code]),
+					"admin_list"=>array("$gate_name",$_LANG_TEXT['m_manage'][$lang_code],$_LANG_TEXT['m_manage_admin'][$lang_code]),
+					"code_list"=>array("$gate_name",$_LANG_TEXT['m_manage'][$lang_code],$_LANG_TEXT['m_manage_code'][$lang_code]),
+					"agree_list"=>array("$gate_name",$_LANG_TEXT['m_manage'][$lang_code],$_LANG_TEXT['information_consent_manag'][$lang_code]),
+					"vaccine_list"=>array("$gate_name",$_LANG_TEXT['m_manage'][$lang_code],$_LANG_TEXT['m_manage_vaccine'][$lang_code]),
+					"app_update"=>array("$gate_name",$_LANG_TEXT['m_manage'][$lang_code],$_LANG_TEXT['m_manage_appupdate'][$lang_code]),
+					"notice_list"=>array("$gate_name",$_LANG_TEXT['m_manage'][$lang_code],$_LANG_TEXT['m_manage_notice'][$lang_code]),
+					"custom_query"=>array("$gate_name",$_LANG_TEXT['m_manage'][$lang_code],$_LANG_TEXT['m_query_editor'][$lang_code]),
+					"faq_list"=>array("$gate_name",$_LANG_TEXT['m_manage'][$lang_code],$_LANG_TEXT['m_manage_faq'][$lang_code])
+				)
+			)
+	);
+?>

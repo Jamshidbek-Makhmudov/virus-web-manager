@@ -1,0 +1,103 @@
+.wickedpicker {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  background: #fefefe;
+  margin: 12px auto 0;
+  border-radius: 0.1px;
+  width: 100px;
+  height: 104px;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 3px;
+  display: none;
+}
+
+.wickedpicker__title {
+  display: none;
+}
+
+.wickedpicker__controls {
+  padding: 0;
+  line-height: normal;
+  margin: 10px 0;
+}
+
+.wickedpicker__controls__control,
+.wickedpicker__controls__control--separator {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: inherit;
+  margin: 0 auto;
+  width: 30px;
+  letter-spacing: 1.3px;
+}
+
+.wickedpicker__controls__control-up,
+.wickedpicker__controls__control-down {
+  position: relative;
+  display: block;
+  height: 22px;
+  margin: 0;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.wickedpicker__controls__control--separator {
+  width: 10px;
+  height: 40px;
+  text-align: center;
+}
+.wickedpicker__controls__control--minutes,
+.wickedpicker__controls__control--hours {
+  display: block;
+  line-height: 33px;
+  height: 40px;
+}
+
+.text-center,
+.wickedpicker__title,
+.wickedpicker__controls,
+.wickedpicker__controls__control,
+.wickedpicker__controls__control--separator,
+.wickedpicker__controls__control-up,
+.wickedpicker__controls__control-down {
+  text-align: center;
+}
+
+.hover-state {
+  color: #3498db;
+}
+.wickedpicker__controls__control-up::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  width: 10px;
+  height:10px;
+  margin-top: 2px;
+  border-top: 3px solid #333;
+  border-left: 3px solid #333;
+  transform: translate(-50%, -50%) rotate(45deg);
+}            
+.wickedpicker__controls__control-down::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  width: 10px;
+  height:10px;
+  margin-top: 2px;
+  border-top: 3px solid #333;
+  border-left: 3px solid #333;
+  transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+.wickedpicker__controls__control-up:hover::before ,
+.wickedpicker__controls__control-down:hover::after {
+  border-top: 3px solid #3498db;
+  border-left: 3px solid #3498db;
+}
